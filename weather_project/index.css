@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+
+    background-image: url('weather.jpg');
+}
+.heading{
+    background: wheat;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: blue;
+    margin: auto;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    /* align-items: center; */
+    width: 20vw;
+    justify-content: center;
+}
+.container
+{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+.inputs 
+{
+    border: 2px solid orange;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(219, 235, 240);
+    color: rgb(16, 18, 20);
+    height: 150px;
+}
+.inputs input[type="text"] 
+{
+    height: 4rem;
+    width: 20rem;
+    background: #e4e42e;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    color: rgb(3, 3, 9);
+    background-color: transparent;
+    border: 2px solid #17c677;
+    border-radius: 3px;
+    margin-right:4px ;
+}
+.inputs input[type="submit"] 
+{
+    height: 3rem;
+    width: 6rem;
+    background: #270aca;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.display 
+{
+    text-align: center;
+    width: 520px;
+    color: #0e0e0e;
+}
+.wrapper 
+{
+    margin: 0 9rem;
+    background-color: rgb(245, 221, 252);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2
+{
+    padding: 5px 0;
+    text-align: center;
+    background: #e8b2e8f0;
+    color: rgb(8, 8, 7);
+}
+.wrapper p
+{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #13170d;
+    font-size:23px;
+}
+.wrapper h2 span
+{
+    font-size: 26px;
+    color: #6808f8;
+    text-decoration: underline;
+}
+.wrapper p span
+{
+    color: #276e05;
+    font-size: 25px;
+} 
